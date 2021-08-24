@@ -1,0 +1,26 @@
+{
+  "name": "pdf-renderer",
+  "version": "1.0.0",
+  "description": "boilerplate express server with @react-pdf/renderer",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "nodemon lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oliviermtl",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^2.0.19",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "react": "^17.0.2"
+  }
+}
