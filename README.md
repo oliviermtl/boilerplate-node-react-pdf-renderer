@@ -6,4 +6,4 @@ https://react-pdf.org/
 Makes use of @babel/preset-react 
 https://babeljs.io/docs/en/babel-preset-react
 
-npm build && npm run start
+npm run build && npm run start
